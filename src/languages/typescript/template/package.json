@@ -1,0 +1,12 @@
+{
+  "name": "kata-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node dist/test-runner.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  }
+}
