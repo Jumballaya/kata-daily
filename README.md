@@ -2,7 +2,7 @@
 
 ## Languages:
 
-1. TypeScript
+1. TypeScript - Started
 2. Rust
 3. Go
 4. C++
@@ -10,8 +10,8 @@
 
 ## Data Structures
 
-1. Stack
-2. Queue
+1. Stack - Started
+2. Queue - Started
 3. Array List
 4. Linked List
 5. Doubly Linked List
