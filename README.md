@@ -1,5 +1,19 @@
 # Kata Daily
 
+## Usage
+
+`kata-daily <language> <command> <arg>`
+
+### Languages
+- `typescript` - TypeScript language
+
+
+### Commands
+- `generate` - Generates project files for the given language
+- `day` - Generates the next day's files for the given language
+- `test` - Run the current days' test by default or give a day as an arg
+
+
 ## Languages:
 
 1. TypeScript - Started
