@@ -1,6 +1,8 @@
 import assert from 'node:assert';
 import { describe, it } from 'node:test';
-import { Stack } from '../Stack';
+
+const day = parseInt(process.env.KATA_DAY || '1');
+const { Stack } = require(`../day${day}/Stack`);
 
 describe('Stack', () => {
     it('should stack', () => {

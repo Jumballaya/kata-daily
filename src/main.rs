@@ -17,13 +17,13 @@ fn main() -> Result<(), io::Error> {
 
     match args.language {
         cli::Language::TypeScript => {
-            let ts = Typescript::new(1, pwd.clone());
+            let ts = Typescript::new(pwd.clone());
 
             match args.command {
                 cli::Commands::GenerateProject => {
                     let config = Config::new();
                     config.write(format!("{}", pwd.as_str()))?;
-                    ts.generate();
+                    ts.generate()?;
                 },
                 cli::Commands::RunTest => {
                     let config = Config::from_file()?;
@@ -32,7 +32,7 @@ fn main() -> Result<(), io::Error> {
                 cli::Commands::GenerateDay => {
                     let mut config = Config::from_file()?;
                     config.day += 1;
-                    ts.generate_day(config.day);
+                    ts.generate_day(config.day)?;
                     config.write(format!("{}", pwd.as_str()))?;
                 }
             };
