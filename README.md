@@ -24,8 +24,8 @@
 
 ## Data Structures
 
-1. Stack - Started
-2. Queue - Started
+1. Stack
+2. Queue
 3. Array List
 4. Linked List
 5. Doubly Linked List
